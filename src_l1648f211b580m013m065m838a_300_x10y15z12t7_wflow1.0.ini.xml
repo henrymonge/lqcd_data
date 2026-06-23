@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<chroma>
+<Param>
+  <InlineMeasurements>
+<elem>
+<Name>MAKE_SOURCE</Name>
+<Frequency>1</Frequency>
+<Param>
+<version>6</version>
+<Source>
+  <version>1</version>
+  <SourceType>SHELL_SOURCE</SourceType>
+  <j_decay>3</j_decay>
+  <t_srce>10 15 12 7</t_srce>
+  <SmearingParam>
+    <wvf_kind>GAUGE_INV_GAUSSIAN</wvf_kind>
+    <wvf_param>4.2</wvf_param>
+    <wvfIntPar>60</wvfIntPar>
+    <no_smear_dir>3</no_smear_dir>
+  </SmearingParam>
+</Source>
+</Param>
+<NamedObject>
+  <gauge_id>default_gauge_field</gauge_id>
+  <source_id>src_300_x10y15z12t7_wflow1.0_wv_w4.2_n60</source_id>
+</NamedObject>
+</elem>
+
+<elem>
+<Name>QIO_WRITE_ERASE_NAMED_OBJECT</Name>
+<Frequency>1</Frequency>
+<NamedObject>
+  <object_id>src_300_x10y15z12t7_wflow1.0_wv_w4.2_n60</object_id>
+  <object_type>LatticePropagatorF</object_type>
+</NamedObject>
+<File>
+  <file_name>./src/src_300_x10y15z12t7_wflow1.0_wv_w4.2_n60</file_name>
+  <file_volfmt>SINGLEFILE</file_volfmt>
+  <parallel_io>true</parallel_io>
+</File>
+</elem>
+
+</InlineMeasurements>
+<nrow>16 16 16 48</nrow>
+</Param>
+<Cfg>
+  <cfg_type>SCIDAC</cfg_type>
+  <cfg_file>./cfg_flow/l1648f211b580m013m065m838a.300_wflow1.0.lime</cfg_file>
+  <parallel_io>true</parallel_io>
+</Cfg>
+</chroma>
+                                                                                                                           

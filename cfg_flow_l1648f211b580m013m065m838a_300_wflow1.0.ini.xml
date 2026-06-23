@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<chroma>
+<Param>
+  <InlineMeasurements>
+<elem>
+<Name>WILSON_FLOW</Name>
+<Frequency>1</Frequency>
+<Param>
+  <version>1</version>
+  <nstep>40</nstep>
+  <wtime>1.0</wtime>
+  <t_dir>-1</t_dir>
+</Param>
+<NamedObject>
+  <gauge_in>default_gauge_field</gauge_in>
+  <gauge_out>l1648f211b580m013m065m838a.300_wflow1.0.lime</gauge_out>
+</NamedObject>
+</elem>
+
+<elem>
+<Name>QIO_WRITE_NAMED_OBJECT</Name>
+<Frequency>1</Frequency>
+<NamedObject>
+  <object_id>l1648f211b580m013m065m838a.300_wflow1.0.lime</object_id>
+  <object_type>Multi1dLatticeColorMatrix</object_type>
+</NamedObject>
+<File>
+  <file_name>./cfg_flow//l1648f211b580m013m065m838a.300_wflow1.0.lime</file_name>
+  <file_volfmt>SINGLEFILE</file_volfmt>
+  <parallel_io>true</parallel_io>
+</File>
+</elem>
+
+</InlineMeasurements>
+<nrow>16 16 16 48</nrow>
+</Param>
+<Cfg>
+  <cfg_type>MILC</cfg_type>
+  <cfg_file>./l1648f211b580m013m065m838a.300</cfg_file>
+  <parallel_io>true</parallel_io>
+</Cfg>
+</chroma>
+                                                                                                                           
